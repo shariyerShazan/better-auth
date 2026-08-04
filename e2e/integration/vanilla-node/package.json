@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start:client": "vite"
+    "start:client": "node init && vite"
   },
   "devDependencies": {
     "@better-auth-test/test-utils": "workspace:*",
