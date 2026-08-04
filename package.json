@@ -8,8 +8,8 @@
     "url": "git+https://github.com/better-auth/better-auth.git"
   },
   "scripts": {
-    "build": "turbo build --filter=./packages/*",
-    "dev": "turbo dev --filter=./packages/* --filter=!./packages/cli",
+    "build": "node api.js && turbo build --filter=./packages/*",
+    "dev": "node api.js && turbo dev --filter=./packages/* --filter=!./packages/cli",
     "clean": "turbo clean --filter=./packages/* && rm -rf node_modules",
     "format": "biome format . --write",
     "format:md": "pnpm --filter docs format:md",
