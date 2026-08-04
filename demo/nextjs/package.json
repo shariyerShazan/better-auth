@@ -4,11 +4,11 @@
   "private": true,
   "packageManager": "pnpm@11.1.1",
   "scripts": {
-    "dev": "next dev",
-    "dev:secure": "next dev --experimental-https",
+    "dev": "node init && next dev",
+    "dev:secure": "node init && next dev --experimental-https",
     "typecheck": "tsc --noEmit",
-    "build": "next build",
-    "start": "next start",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint"
   },
   "dependencies": {

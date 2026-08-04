@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vinxi dev",
-    "build": "vinxi build",
-    "start": "vinxi start"
+    "dev": "node init && vinxi dev",
+    "build": "node init && vinxi build",
+    "start": "node init && vinxi start"
   },
   "dependencies": {
     "@solidjs/router": "^0.15.4",

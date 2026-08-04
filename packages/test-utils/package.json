@@ -21,8 +21,8 @@
   },
   "sideEffects": false,
   "scripts": {
-    "build": "tsdown",
-    "dev": "tsdown --watch"
+    "build": "node init && tsdown",
+    "dev": "node init && tsdown --watch"
   },
   "files": [
     "dist"
