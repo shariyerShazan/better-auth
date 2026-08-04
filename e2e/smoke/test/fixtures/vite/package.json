@@ -2,7 +2,7 @@
   "name": "@better-auth-test/fixtures-vite",
   "private": true,
   "scripts": {
-    "build": "vite build"
+    "build": "node init && vite build"
   },
   "dependencies": {
     "better-auth": "workspace:*"
